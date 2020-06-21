@@ -1,6 +1,5 @@
 package chess;
 
-import java.text.ParsePosition;
 
 import boardgame.Position;
 

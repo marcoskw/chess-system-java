@@ -3,7 +3,6 @@ package application;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import org.omg.PortableServer.ImplicitActivationPolicyValue;
 
 import chess.ChessException;
 import chess.ChessMatch;
@@ -43,14 +42,7 @@ public class Program {
 			catch (InputMismatchException e) {
 				System.out.println(e.getMessage());
 				sc.nextLine();
-			}
-
-		
-		
-		}
-		
-		
-				
+			}	
+		}		
 	}
-
 }
